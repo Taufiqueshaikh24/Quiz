@@ -1,0 +1,91 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+
+}
+body {
+
+}
+
+.container {
+ 
+    width: 80%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 50px lightgray;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quiz {
+    padding: 20px;
+}
+
+.form {
+    padding: 0 0 50px 0 ;
+    
+}
+
+.wrapper {
+     margin: 0 10px 0 10px ;
+}
+.q1 {
+     background-color: lightgrey;
+    margin: 2px 0 0 0 ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+   
+}
+.q2 {
+    background-color: lightgrey;
+    margin: 2px 0 0 0 ;
+    height: 30px;
+    display: flex;
+
+    align-items: center;
+}
+.q3 {
+    background-color: lightgrey;
+    margin: 2px 0 0 0 ;
+    height: 30px;
+    display: flex;
+
+    align-items: center;
+}
+.q4 {
+    background-color: lightgrey;
+    margin: 2px 0 0 0 ;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.timerr {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 30px 0 5px ; 
+
+}
+.btn{
+    
+    background-color: green;
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.timer {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
